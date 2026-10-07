@@ -14,7 +14,7 @@ PRODUCT_PACKAGES += \
 
 # HWComposer HAL
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.composer@2.1-drmfb-service \
+    org.blisslabs.ag.drmfb.composer \
     android.hardware.graphics.composer@2.1-service-clone \
     android.hardware.graphics.composer@2.4-service
 
@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
 
 # Media codec
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2-ffmpeg-service
+    org.blisslabs.ag.stagefright.plugins
 
 # DumpState HAL
 PRODUCT_PACKAGES += \
